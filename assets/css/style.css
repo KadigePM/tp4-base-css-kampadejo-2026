@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /**
- * @author Prénom Nom courriel
+ * @author Kadige Pelouom courriel
  *
  * TABLE DES MATIÈRES
  * Normalize
@@ -85,9 +85,9 @@ a {
 }
 
 .btn:hover {
-    background-color: #dba70d;
-    border-color: #dba70d;
-    color: #000;
+     background-color: var(--color-Y);
+  border-color: var(--color-Y);
+  color: #000;
 }
 
 .btn:focus {
@@ -157,10 +157,17 @@ figcaption {
 }
 
 /* Menu principal */
-.logo {}
+.logo {
+     float: left;
+}
+.nav_liste {
+  text-align: right;
+}
 
 @media (min-width: 48rem) {
-    .logo {}
+    .logo {
+        width: 150px;
+    }
 }
 
 
